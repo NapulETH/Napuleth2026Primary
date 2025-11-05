@@ -6,7 +6,9 @@ export default function Home() {
 
   return (
     <Stack width={"100%"} alignItems={"center"} gap={10}>
-      <Hero1 />
+      <Stack width={"100%"} className="max-w-7xl mx-auto px-10" borderRadius={4} overflow={"hidden"}>
+        <Hero1 borderRadius={4} backgroundColor="#952527" />
+      </Stack>
     </Stack>
   );
 }

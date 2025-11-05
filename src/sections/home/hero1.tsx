@@ -15,7 +15,7 @@ import heroAsset4 from "@/assets/images/hero/heroAsset4.webp";
 import heroAsset5 from "@/assets/images/hero/heroAsset5.webp";
 import skyline from "@/assets/images/hero/skyline.webp";
 
-export default function Hero1() {
+export default function Hero1({borderRadius, backgroundColor}: {borderRadius: number, backgroundColor: string}) {
     const isReduced = useReducedMotion();
 
     const tImage = 0.0;
@@ -27,13 +27,16 @@ export default function Hero1() {
     return (
         <Stack
             width="100%"
-            minHeight="90vh"
+            minHeight="88vh"
             gap={4}
-            pt={6}
-            
+            pt={8}
+            borderRadius={borderRadius}
             px={16}
             position="relative"
             overflow="hidden"
+            sx={{
+                backgroundColor: backgroundColor,
+            }}
         >
             <Stack gap={4} alignItems={"center"} sx={{ position: "relative", zIndex: 2 }} >
                 <motion.div
@@ -135,7 +138,7 @@ export default function Hero1() {
                 </motion.div>
             </Stack>
             <Stack width="100%" position="absolute" sx={{
-                top: "60%",
+                top: "70%",
                 left: 0,
                 right: 0,
             }}>

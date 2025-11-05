@@ -27,7 +27,7 @@ import napulethTickets from "@/assets/images/hero/napulethTickets.webp";
 export default function Header() {
     return (
         <header className="z-50 w-full bg-transparent">
-            <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-32">
+            <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-10">
                 <Link href="/" className="inline-flex items-center gap-3">
                     <Image src={logo} alt="mood global services mgs logo" width={120} height={27} priority />
                 </Link>

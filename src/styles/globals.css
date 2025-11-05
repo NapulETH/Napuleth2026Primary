@@ -6,7 +6,7 @@
 
 @theme {
   /* Map these to your design system / MUI palette */
-  --color-main-background: #952527;
+  --color-main-background: #0B0B0B;
   /* page bg */
   --color-main-foreground: #FFFFFF;
   /* menu item hover bg */
@@ -24,7 +24,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #952527!important;
+  background-color: #0B0B0B!important;
   overflow-x: hidden !important;
   height: 100%;
 }
@@ -43,7 +43,7 @@ a {
   --main-secondary: oklch(97% 0 0);
   --main-foreground: oklch(0.925 0 0);
   --main-muted: oklch(0.96 0 0);
-  --main-background: oklch(0.97 0 0);
+  --main-background: #0B0B0B;
   --main-invert: oklch(0.205 0 0);
 
   --primary: oklch(0 0 0);
@@ -59,7 +59,7 @@ a {
   --main-secondary: oklch(0.205 0 0);
   --main-foreground: oklch(0.269 0 0);
   --main-muted: oklch(0.168 0 0);
-  --main-background: oklch(0.145 0 0);
+  --main-background: #0B0B0B;
   --main-invert: oklch(0.8 0 0);
 
   --primary: oklch(1 0 0);
